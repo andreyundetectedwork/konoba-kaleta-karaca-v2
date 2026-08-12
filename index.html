@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="sr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konoba Kaleta Karaca | Stari Grad, Herceg-Novi</title>
+  <meta name="description" content="Autentična bokeljska konoba u Starom Gradu Herceg Novog. Sveža riba, morski plodovi i tradicionalni specijaliteti.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚓</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-info">
+        <span class="status-dot"></span>
+        <span data-i18n="hours_short">Pon - Ned: 09:00 - 00:00</span>
+        <span class="divider">•</span>
+        <span>Stari grad, Herceg - Novi</span>
+      </div>
+      <div class="lang-switcher" aria-label="Language Switcher">
+        <button type="button" class="lang-btn active" data-lang="sr">SR</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="ru">RU</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo">
+        <span class="brand-title">Konoba Kaleta Karaca</span>
+        <span class="brand-sub" data-i18n="brand_subtitle">Stari Grad • Herceg Novi</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#about" data-i18n="nav_about">O nama</a>
+        <a href="#menu" data-i18n="nav_menu">Meni</a>
+        <a href="#reviews" data-i18n="nav_reviews">Utisci</a>
+        <a href="#contacts" data-i18n="nav_contacts">Kontakt</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+38267188010" class="btn btn-outline btn-sm phone-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>+382 67 188 010</span>
+        </a>
+        <button class="burger-btn" id="burgerBtn" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenu">
+    <div class="mobile-menu-content">
+      <nav class="mobile-nav-links">
+        <a href="#about" class="mobile-link" data-i18n="nav_about">O nama</a>
+        <a href="#menu" class="mobile-link" data-i18n="nav_menu">Meni</a>
+        <a href="#reviews" class="mobile-link" data-i18n="nav_reviews">Utisci</a>
+        <a href="#contacts" class="mobile-link" data-i18n="nav_contacts">Kontakt</a>
+      </nav>
+      <div class="mobile-lang">
+        <span class="mobile-lang-title" data-i18n="select_lang">Jezik / Language:</span>
+        <div class="lang-switcher">
+          <button type="button" class="lang-btn active" data-lang="sr">SR</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="ru">RU</button>
+        </div>
+      </div>
+      <a href="tel:+38267188010" class="btn btn-primary btn-full mt-4">
+        <span data-i18n="call_us">Pozovite nas</span>: +382 67 188 010
+      </a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-bg">
+      <img src="assets/img_01.jpg" alt="Konoba Kaleta Karaca enterijer sa belim stolnjacima">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="rating-badge">
+          <span class="stars">★★★★★</span>
+          <span class="rating-score">4.9</span>
+          <span class="rating-count">(370 <span data-i18n="reviews_count_label">recenzija</span>)</span>
+        </div>
+        <h1 class="hero-title">Konoba Kaleta Karaca</h1>
+        <p class="hero-subtitle" data-i18n="hero_subtitle">Duh Mediterana i autentična jadranska kuhinja u ušuškanom kutku Starog Grada.</p>
+        
+        <div class="hero-cta-group">
+          <a href="#menu" class="btn btn-primary" data-i18n="cta_menu">Pogledajte meni</a>
+          <a href="tel:+38267188010" class="btn btn-light" data-i18n="cta_call">Rezervišite sto</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Decorative Linen Wave / Border -->
+    <div class="tablecloth-edge"></div>
+  </section>
+
+  <!-- Highlights Strip -->
+  <section class="highlights-section" id="about">
+    <div class="container">
+      <div class="highlights-grid">
+        <div class="highlight-card">
+          <div class="highlight-icon">⚓</div>
+          <h3 data-i18n="feat_1_title">Lokacija u Starom Gradu</h3>
+          <p data-i18n="feat_1_desc">Smešteni u samom srcu Starog Grada Herceg Novog, u mirnoj kaleti sa prirodnom hladovinom.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">🍷</div>
+          <div class="highlight-content">
+            <h3 data-i18n="feat_2_title">Bokeljska Tradicija</h3>
+            <p data-i18n="feat_2_desc">Recepti koji se u Boki Kotorskoj spremaju generacijama - uz pažljivo odabrana domaća vina.</p>
+          </div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">🐟</div>
+          <div class="highlight-content">
+            <h3 data-i18n="feat_3_title">Sveži Plodovi Mora</h3>
+            <p data-i18n="feat_3_desc">Svakodnevna ponuda sveže jadranske ribe, ribljih brodeta, buzara i autentičnih rižota.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Atmosphere Showcase Grid -->
+  <section class="atmosphere-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle" data-i18n="atmos_sub">Atmosfera i Gastronomija</span>
+        <h2 class="section-title" data-i18n="atmos_title">Ukus Jadrana na Belim Stolnjacima</h2>
+      </div>
+
+      <div class="gallery-asymmetric">
+        <div class="gallery-item item-main">
+          <img src="assets/img_02.jpg" alt="Grilovani hobotnica sa maslinovim uljem" loading="lazy">
+          <div class="gallery-caption" data-i18n="cap_octopus">Hobotnica i sveži plodovi mora na žaru</div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img_03.jpg" alt="Riblji tanjir i morski plodovi" loading="lazy">
+          <div class="gallery-caption" data-i18n="cap_seafood">Riblji specijaliteti kuće</div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img_04.jpg" alt="Čaša belog vina na sunčanoj terasi" loading="lazy">
+          <div class="gallery-caption" data-i18n="cap_wine">Lokalna vina i primorski mir</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Menu Section -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle" data-i18n="menu_subtitle">Gastronomski Izbor</span>
+        <h2 class="section-title" data-i18n="menu_title">Meni Konobe Kaleta Karaca</h2>
+        <p class="section-desc" data-i18n="menu_disclaimer">*Sve gramaže artikala odnose se na sirovu meru proizvoda. Priprema obroka traje 30-35min.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="menu-tabs-wrapper">
+        <div class="menu-tabs" id="menuTabs">
+          <!-- Dynamically generated or standard filter controls -->
+        </div>
+      </div>
+
+      <!-- Menu Items Render Container -->
+      <div class="menu-content" id="menuContent">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="rating-badge center-badge">
+          <span class="stars">★★★★★</span>
+          <span class="rating-score">4.9 / 5.0</span>
+        </div>
+        <h2 class="section-title" data-i18n="reviews_title">Šta Kažu Naši Gosti</h2>
+        <p class="section-desc" data-i18n="reviews_subtitle">Iskreni utisci gositiju iz celog sveta zabeleženi na Google recenzijama.</p>
+      </div>
+
+      <div class="reviews-grid" id="reviewsGrid">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Contact Section -->
+  <section class="contacts-section" id="contacts">
+    <div class="container">
+      <div class="contacts-card">
+        <div class="contacts-info">
+          <span class="section-subtitle" data-i18n="contacts_sub">Dobrodošli</span>
+          <h2 class="section-title" data-i18n="contacts_title">Informacije i Lokacija</h2>
+
+          <div class="info-list">
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <strong data-i18n="label_address">Adresa:</strong>
+                <p>Stari grad, Herceg - Novi 85340, Montenegro</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div>
+                <strong data-i18n="label_phone">Telefon za rezervacije:</strong>
+                <p><a href="tel:+38267188010">+382 67 188 010</a></p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">🕒</div>
+              <div>
+                <strong data-i18n="label_hours">Radno vreme:</strong>
+                <p data-i18n="hours_full">Ponedeljak – Nedelja: 09:00 – 00:00</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📷</div>
+              <div>
+                <strong data-i18n="label_social">Pratite nas:</strong>
+                <p><a href="https://www.instagram.com/konobakaraca/" target="_blank" rel="noopener">@konobakaraca na Instagramu</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contacts-cta">
+            <a href="tel:+38267188010" class="btn btn-primary btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span data-i18n="cta_call_direct">Pozovite i rezervišite sto</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="map-wrapper">
+          <iframe 
+            title="Konoba Kaleta Karaca Map Location"
+            src="https://maps.google.com/maps?q=Konoba%20Kaleta%20Karaca%20Herceg%20Novi&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-title">Konoba Kaleta Karaca</span>
+        <p data-i18n="footer_tagline">Tradicionalna bokeljska kuhinja u srcu Starog Grada Herceg Novog.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about" data-i18n="nav_about">O nama</a>
+        <a href="#menu" data-i18n="nav_menu">Meni</a>
+        <a href="#reviews" data-i18n="nav_reviews">Utisci</a>
+        <a href="https://www.instagram.com/konobakaraca/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Konoba Kaleta Karaca. <span data-i18n="rights">Sva prava zadržana.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Call Button -->
+  <a href="tel:+38267188010" class="floating-call-btn" aria-label="Call Now">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
